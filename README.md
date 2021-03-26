@@ -3,7 +3,7 @@
 ## Folder structure
 ```
 src
-  |_clients             // Front
+  |_client              // Front
   |_models              // Model todo schema
       |_task.js
   |_public              // Static files
