@@ -7,7 +7,7 @@ const app = express();
 const { mongoose } = require('./database');
 
 // Settings (Config)
-app.set('port', process.env.PORT || 5000); // use OS port or 3000
+app.set('port', process.env.PORT || 5000); // use OS port or 5000
 
 // Middlewares (Functions before reaching routes URLS)
 app.use(morgan('dev'));
